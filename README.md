@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Personal Library Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a simple Library Manager application built using **React.js** with **TypeScript**. The app allows users to manage a collection of books by providing features to view, add, update, and delete books. Each book contains the following properties:
 
-In the project directory, you can run:
+- Title
+- Author
+- Genre
+- Description
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- View a list of books in a responsive table.
+- Add a new book using a modal form.
+- Edit an existing book with the same modal form.
+- Delete a book with a confirmation modal.
+- Form validation for both adding and updating books.
+- Responsive design for different screen sizes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- **React**.
+- **TypeScript**.
+- **SWR**.
+- **Formik**.
+- **Yup**.
+- **Axios**.
+- **Material UI (MUI 5)**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup
 
-### `npm run build`
+1. Clone the repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the required dependencies:
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+    npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open the application in your browser at `http://localhost:3000`.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Add a Book**: Click the "ADD NEW BOOK" button to open a modal form. Enter the details (title, author, genre, description) and submit.
+- **Edit a Book**: Click the "Edit" icon next to any book. This will open the modal form with pre-filled data. Update the fields and submit.
+- **Delete a Book**: Click the "Delete" icon, and confirm deletion in the popup modal.
